@@ -1,0 +1,147 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(76, 76, 78);
+}
+
+main {
+    margin: auto;
+}
+
+.secret-number-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border: solid 3px yellow;
+    width: 70px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: rgb(24, 23, 23);
+    box-shadow: 0px 0px 5px 3px black;
+}
+
+.secret-number {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.game-choices-box {
+    display: block;
+}
+
+.game-input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    border: solid 2px black;
+    width: 150px;
+    height: 80px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+}
+
+.game-input-box input {
+    border: solid 2px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    height: auto;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.game-input-box input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.changer-number-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: solid 2px black;
+}
+
+.result-box {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.increament-button, .decreament-button {
+    font-size: 30px;
+    border-radius: 7px;
+    width: 40px;
+    height: 40px;
+    background-color:  black;
+}
+
+.increament-button:hover, .decreament-button:hover {
+    cursor: pointer;
+}
+
+.increament-button:hover {
+    box-shadow: 0px 0px 10px 1px black,
+    inset 0px 0px 3px 0px black;
+    border: solid 2px black;
+    background-color: #00ff00;
+    color: black
+}
+
+.decreament-button:hover {
+    box-shadow: 0px 0px 10px 1px black,
+    inset 0px 0px 3px 0px black;
+    border: solid 2px black;
+    background-color: red;
+    color: black
+}
+
+.increament-button {
+    border: solid 2px #00ff00;
+    color: #00ff00;
+}
+
+.decreament-button {
+    border: solid 2px red;
+    color: red;
+}
+
+.play-game-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.play-game {
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+    box-shadow: 3px 3px 3px 1px;
+}
+
+.play-game:hover {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.reload {
+    display: none;
+}

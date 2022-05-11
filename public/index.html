@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhador de números</title>
+    <link rel="stylesheet" href="../src/style/style.css">
+</head>
+<body>
+    <main>
+        <div class="title-game-box">
+            <h1 class="title-game">Advinhe o Número</h1>
+        </div>
+        <div class="secret-number-box">
+            <div class="secret-number" id="secret-number-id">?</div>
+        </div>
+        <div class="game-choices-box">
+            <div class="game-input-box">
+                <input id="choice-value" type="number" value="0">
+            </div>
+            <div class="changer-number-box">
+                <button class="decreament-button" id="decreament" >-</button>
+                <button class="increament-button" id="increament" >+</button>
+            </div>
+            <div>
+                <div class="result-box" id="result" >Resultado</div>
+            </div>
+            <div class="play-game-box">
+                <button class="play-game" id="play-game-id" >Jogar</button>
+                <button class="play-game reload" id="reload-game-id" >Rejogar</button>
+            </div>
+        </div>
+    </main>
+    <script src="../src/code/index.js">
+    </script>
+</body>
+</html>
