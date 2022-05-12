@@ -18,17 +18,33 @@
         </div>
         <div class="game-choices-box">
             <div class="game-change-box">
+                <p class="range-value" id="number-computer">0</p>
+                <h4 class="computer-choice">Escolha do computador</h4>
+            </div>
+            <div class="game-change-box">
                 <p id="range-value" class="range-value"></p>
                 <div class="choice-value-range">
                     <input class="slider" type="range" min="0" max="10" value="5" step="1" id="choice-value-range">
                 </div>
             </div>
-            <div>
-                <div class="result-box" id="result" >Resultado</div>
-            </div>
             <div class="play-game-box">
                 <button class="play-game" id="play-game-id" >Jogar</button>
                 <button class="play-game reload" id="reload-game-id" >Rejogar</button>
+            </div>
+            <div>
+                <div class="result-box">
+                    <h2 class="title-result" id="result">Resultado</h2>
+                    <div class="results">
+                        <div class="computer-point">
+                            <h3>Pontuação do computador:</h3>
+                            <h3 class="point" id="point-computer">0</h3>
+                        </div>
+                        <div class="player-point">
+                            <h3>Sua pontuação:</h3>
+                            <h3 class="point" id="point-player" >0</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
