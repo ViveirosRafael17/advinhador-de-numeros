@@ -12,16 +12,16 @@
         <div class="title-game-box">
             <h1 class="title-game">Advinhe o Número</h1>
         </div>
+        <h4 class="description-secret-number">Número secreto</h4>
         <div class="secret-number-box">
             <div class="secret-number" id="secret-number-id">?</div>
         </div>
         <div class="game-choices-box">
-            <div class="game-input-box">
-                <input id="choice-value" type="number" value="0">
-            </div>
-            <div class="changer-number-box">
-                <button class="decreament-button" id="decreament" >-</button>
-                <button class="increament-button" id="increament" >+</button>
+            <div class="game-change-box">
+                <p id="range-value" class="range-value"></p>
+                <div class="choice-value-range">
+                    <input class="slider" type="range" min="0" max="10" value="5" step="1" id="choice-value-range">
+                </div>
             </div>
             <div>
                 <div class="result-box" id="result" >Resultado</div>
